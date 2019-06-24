@@ -1,0 +1,12 @@
+name: Miner
+main: misat11.mine.Main
+version: ${project.version}
+author: Misat11
+api-version: 1.13
+softdepend: [Multiverse-Core, Multiworld, MultiWorld, UltimateCore]
+
+commands:
+  mine:
+    description: Command of Miner plugin
+    usage: /mine [subcommand]
+    aliases: "miner"
